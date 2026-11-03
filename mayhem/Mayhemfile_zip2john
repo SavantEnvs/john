@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: zip2john
+cmds:
+  - cmd: /mayhem/mayhem/out/zip2john @@
+    timeout: 10

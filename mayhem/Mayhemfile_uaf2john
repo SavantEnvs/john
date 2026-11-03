@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: uaf2john
+cmds:
+  - cmd: /mayhem/run/uaf2john @@
+    timeout: 10

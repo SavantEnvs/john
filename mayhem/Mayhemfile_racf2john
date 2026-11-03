@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: racf2john
+cmds:
+  - cmd: /mayhem/run/racf2john @@
+    timeout: 10

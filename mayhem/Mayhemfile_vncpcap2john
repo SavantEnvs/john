@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: vncpcap2john
+cmds:
+  - cmd: /mayhem/run/vncpcap2john @@
+    timeout: 10

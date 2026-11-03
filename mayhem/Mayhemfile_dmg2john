@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: dmg2john
+cmds:
+  - cmd: /mayhem/run/dmg2john @@
+    timeout: 10

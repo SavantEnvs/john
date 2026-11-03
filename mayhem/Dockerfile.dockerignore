@@ -1,0 +1,7 @@
+# Build outputs and scratch: the image rebuilds them. Keep .git (the full history is baked into /mayhem).
+mayhem/out
+/fuzz_john_formats
+/fuzz_john_formats-standalone
+/ctrf-report.json
+**/*.o
+**/*.a
