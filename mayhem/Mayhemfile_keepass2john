@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: keepass2john
+cmds:
+  - cmd: /mayhem/run/keepass2john @@
+    timeout: 10

@@ -1,0 +1,8 @@
+project: savantenvs/john
+target: bitlocker2john
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/bitlocker2john/testsuite
+cmds:
+  - cmd: /mayhem/run/bitlocker2john -i @@
+    timeout: 10

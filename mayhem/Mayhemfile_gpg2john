@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: gpg2john
+cmds:
+  - cmd: /mayhem/run/gpg2john @@
+    timeout: 10

@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: hccap2john
+cmds:
+  - cmd: /mayhem/run/hccap2john @@
+    timeout: 10

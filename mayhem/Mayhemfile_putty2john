@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: putty2john
+cmds:
+  - cmd: /mayhem/run/putty2john @@
+    timeout: 10

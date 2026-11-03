@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: wpapcap2john
+cmds:
+  - cmd: /mayhem/run/wpapcap2john @@
+    timeout: 10

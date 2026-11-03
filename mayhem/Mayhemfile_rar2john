@@ -1,0 +1,5 @@
+project: savantenvs/john
+target: rar2john
+cmds:
+  - cmd: /mayhem/run/rar2john @@
+    timeout: 10
